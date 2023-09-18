@@ -1,0 +1,31 @@
+{
+  "name": "gitbot",
+  "version": "0.0.1",
+  "description": "A bot for sending github issues over to channels",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest bot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oss-reva/gitbot.git"
+  },
+  "keywords": [
+    "discord",
+    "github",
+    "gitlab",
+    "opensource",
+    "tracking",
+    "bot",
+    "scraping"
+  ],
+  "author": "OSS-REVA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oss-reva/gitbot/issues"
+  },
+  "homepage": "https://github.com/oss-reva/gitbot#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
+}
